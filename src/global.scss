@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+* {
+    // font-family: 'Shalimar', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .listContainer {
+        min-width: 70%;
+        background: #eee;
+        min-height: 90vh;
+        h1 {
+            font-size: 50px;
+            color: rgb(14, 223, 11);
+            text-align: center;
+            margin-top: 2%;
+        }
+        p{
+            color:rgb(70, 68, 68);
+            font-size: 25px;
+            font-weight: bold;
+        }
+        input{
+            width: 60%;
+            height: 38px;
+            border-radius: 15px;
+            border: 5px solid #fff;
+            outline: none;
+            font-size: 20px;
+        }
+        input:hover{
+            width: 70%;
+            box-shadow: 0px 0px 25px #4dc247; 
+        }
+        input:active{
+            outline: none;
+            box-shadow: 0px 0px 25px #151615;
+           
+        }
+        .list{
+            border: 2px solid;
+            border-radius: 20px;
+            width: 100%;
+            height: 80vh;
+            margin-top: 5%;
+            
+            .listItem{
+            display: flex;
+            margin-top: 4%;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 10px;
+
+            }
+            .changeBtn{
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                
+                border: 5px solid #fff;
+                font-size: 15px;
+                margin: 0px 15px;
+                color:rgb(215, 196, 196);
+                font-weight: bold;
+                font-size: 20px;
+
+
+            }
+            .changeBtn:hover{
+                width: 60px;
+                height: 60px;
+
+                
+                border-color: #4dc247;
+                box-shadow: 0px 0px 25px #4dc247;
+                color:#4dc247 ;
+            }
+            .changeBtn:active{
+                box-shadow: 0px 0px 25px #151615;
+                color:#151615; 
+                border: 5px solid #151615;
+            }
+           
+        }
+
+    }
+}
+

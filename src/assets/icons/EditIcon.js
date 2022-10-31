@@ -1,0 +1,1 @@
+// export const mySolidIcon = () =>  (<FontAwesomeIcon icon={solidIcon} />);
